@@ -17,6 +17,7 @@ const dispatch = createEventDispatcher();
     on:change={onChange} checked ={selected===1}/>
     <label for="num1">1</label>
    </li>
+   
    <li>
     <input type="radio" id=num2 name="rating" value ={2} 
     on:change={onChange} checked ={selected===2}/>
